@@ -1,10 +1,13 @@
 import * as React from "react";
 import { makeStyles } from "@material-ui/core/styles";
 import Box from "@material-ui/core/Box";
-import { ChatMessage, ChatTextInput } from "components/Chat";
+import {
+  ChatMessage,
+  ChatTextInput,
+} from "@arpitbhalla/trio-calls/components/Chat";
 import { useMsgs } from "core/hooks/useMsgs";
 import { useAppSelector } from "core/hooks/redux";
-import { dateToTime } from "utils/common";
+import { dateToTime } from "@arpitbhalla/trio-calls/utils/common";
 import { useParams } from "react-router-dom";
 import { LinearProgress } from "@material-ui/core";
 
